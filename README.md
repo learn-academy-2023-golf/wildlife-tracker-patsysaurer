@@ -159,6 +159,7 @@ Note:
 3. Send API request to post data: 
 - Open Postman app
 - Set to POST 
+- Enter URL: localhost:3000/birds
 - Select the Body tab
 - Select raw > change TEXT to JSON
 - Enter a new data object:
@@ -228,6 +229,5 @@ To remove an existing bird from the database.
 - Confirm in the terminal it was deleted
 
         Bird Destroy (0.4ms)  DELETE FROM "birds" WHERE "birds"."id" = $1  [["id", 7]]
-
 
 
